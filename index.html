@@ -47,8 +47,47 @@
     </section>
 
     <section id="screen-done" class="screen">
-      <h1>Order placed</h1>
-      <p class="sub">Thank you! This is a practice site, so no real order or payment was made.</p>
+      <h1>🎉 Order Placed Successfully!</h1>
+      <p class="sub">Thank you! Your order has been received and routed to the kitchen.</p>
+
+      <!-- F4: Live Order Tracking with RideDost Partner -->
+      <div class="tracker-card">
+        <div class="tracker-header">
+          <div>
+            <span class="tracker-badge">Live Tracking</span>
+            <h2 id="order-id">Order #SE-IND-8492</h2>
+          </div>
+          <div class="eta-box">
+            <small>Estimated Delivery</small>
+            <strong>25-30 mins</strong>
+          </div>
+        </div>
+
+        <div class="tracker-partner">
+          <span>🛵 Delivery Partner: <strong>RideDost Express</strong></span>
+          <small>Rider: Suresh K. · Hero Electric</small>
+        </div>
+
+        <div class="tracker-steps">
+          <div class="step-item done">
+            <div class="step-circle">✓</div>
+            <div class="step-label"><strong>Order Confirmed</strong><small>Payment verified via PayKaro</small></div>
+          </div>
+          <div class="step-item active">
+            <div class="step-circle">🍳</div>
+            <div class="step-label"><strong>Kitchen Preparing</strong><small>Freshly cooked in Indore kitchen</small></div>
+          </div>
+          <div class="step-item">
+            <div class="step-circle">🛵</div>
+            <div class="step-label"><strong>Out for Delivery</strong><small>RideDost partner en route</small></div>
+          </div>
+          <div class="step-item">
+            <div class="step-circle">📍</div>
+            <div class="step-label"><strong>Delivered</strong><small>To your doorstep</small></div>
+          </div>
+        </div>
+      </div>
+
       <div class="actions"><button class="primary" data-go="menu">Order again</button></div>
     </section>
   </main>
