@@ -34,7 +34,7 @@ function cartTotal(cart, menu) {
 }
 
 // The bill, with GST shown on its own line.
-const GST_RATE = 0.18;   // standard GST rate
+const GST_RATE = 0.05;   // restaurant GST rate (5%)
 
 function billSummary(cart, menu) {
   const food = cartTotal(cart, menu);
